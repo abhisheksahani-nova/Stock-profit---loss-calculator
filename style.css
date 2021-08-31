@@ -6,7 +6,9 @@
 }
 
 body {
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+  color: #333333;
 }
 
 a {
@@ -19,11 +21,13 @@ li {
 
 /* Header */
 header h1 {
+  font-family: 'Lora', serif;
   text-align: center;
   margin: 2rem;
 }
 
 .input-label {
+  font-family: 'Lora', serif;
   display: block;
   font-size: larger;
   margin: 2rem 0px;
@@ -54,6 +58,7 @@ header h1 {
 }
 
 .output {
+  font-family: 'Lora', serif;
   font-size: x-large;
   font-weight: 600;
   margin: 2rem 0;
