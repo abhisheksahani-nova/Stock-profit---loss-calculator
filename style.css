@@ -11,6 +11,10 @@ body {
   color: #333333;
 }
 
+main {
+  height: 85vh;
+}
+
 a {
   text-decoration: none;
 }
@@ -65,30 +69,21 @@ header h1 {
 }
 
 /* Footer */
+
 footer {
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
-footer p {
-  font-size: large;
+footer p{
   text-align: center;
 }
 
-.footer-list {
-  margin: 1rem;
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-a,
-img,
-li {
-  display: inline;
-}
-
-img {
-  width: 40px;
-  padding: 1rem 0.2rem;
+li{
+  margin: 1rem 0.5rem 1rem 0.5rem;
 }
